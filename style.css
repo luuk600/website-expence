@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #5f5555;
     margin: 0;
     padding: 0;
 }
@@ -32,7 +32,7 @@ input {
 button {
     padding: 10px;
     font-size: 16px;
-    background-color: #28a745;
+    background-color: #009dff;
     color: white;
     border: none;
     border-radius: 5px;
@@ -40,7 +40,7 @@ button {
 }
 
 button:hover {
-    background-color: #218838;
+    background-color: #0dd9f0;
 }
 
 #expense-list {
