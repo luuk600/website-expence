@@ -6,14 +6,25 @@ body {
 }
 
 .container {
+    min-width: 500px;
     max-width: 600px;
-    margin: 50px auto;
+    margin: 50px  auto auto 12.5%;
     padding: 20px;
     background: white;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    float: left;
 }
-
+.container2 {
+    min-width: 500px;
+    max-width: 600px;
+    margin: 50px 12.5% auto auto;
+    padding: 20px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    float: right;
+}
 h1 {
     text-align: center;
 }
@@ -48,6 +59,21 @@ button:hover {
     padding: 0;
 }
 
+#income-list {
+    list-style: none;
+    padding: 0;
+}
+
+#income-list li {
+    padding: 10px;
+    background: #f9f9f9;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 #expense-list li {
     padding: 10px;
     background: #f9f9f9;
@@ -59,6 +85,9 @@ button:hover {
     align-items: center;
 }
 
+#income-summary {
+    margin-bottom: 20px;
+}
 #expense-summary {
     margin-bottom: 20px;
 }
