@@ -117,4 +117,11 @@ document.addEventListener('DOMContentLoaded', () => {
     displaySummary();
     displayIncome();
     displaySummaryIncome();
+    const totalIncome = incomes.reduce((sum, income) => sum + income.amount, 0);
+    const totalExpenses = expenses.reduce((sum, expense) => sum + expense.amount, 0);
+    const incomeMinusExpenses = totalIncome - totalExpenses;
+
+    const resultElement = document.getElementById('result');
+    resultElement.innerHTML = `€${incomeMinusExpenses.toFixed(2)}`;
+
 });

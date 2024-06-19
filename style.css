@@ -8,23 +8,37 @@ body {
 .container {
     min-width: 500px;
     max-width: 600px;
-    margin: 50px  auto auto 12.5%;
+    margin: 50px 12.5% auto auto;
+    padding: 20px;
+    background: white;
+    
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    float: right;
+}
+.container2 {
+    min-width: 500px;
+    max-width: 600px;
+    margin: 50px auto auto 12.5%;
+    padding: 20px;
+    background: white;
+    border-radius: 5px;
+    
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    float: left;
+}
+
+#incomeexpense{
+    max-width: 100px;
     padding: 20px;
     background: white;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     float: left;
+    margin: 20% auto auto 5%;
+    text-align: center;
 }
-.container2 {
-    min-width: 500px;
-    max-width: 600px;
-    margin: 50px 12.5% auto auto;
-    padding: 20px;
-    background: white;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    float: right;
-}
+
 h1 {
     text-align: center;
 }
